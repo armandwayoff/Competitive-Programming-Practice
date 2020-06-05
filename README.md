@@ -1,1 +1,4 @@
-# HackerRank-Practice
+# Competitive Programming Practice
+
+HackerRank
+Code Forces
