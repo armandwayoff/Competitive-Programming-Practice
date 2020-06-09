@@ -1,4 +1,3 @@
 # Competitive Programming Practice
 
-HackerRank
-Code Forces
+My HackerRank account : <https://www.hackerrank.com/profile/armandwayoff>
