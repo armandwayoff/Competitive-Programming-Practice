@@ -1,7 +1,13 @@
-# 50% (Your code did not execute within the time limits)
+# 5 erreurs (Your code did not execute within the time limits)
 
-def andProduct(a, b):
-    ans = a
-    for i in range(a + 1, b + 1):
-        ans &= i
-    return ans
+long andProduct(long a, long b) {
+    long ans = a;
+    for (int i = a + 1; i < b + 1; i++) {
+        if ((i & (i - 1)) != 0) {
+            ans &= i;
+        } else {
+            return 0;
+        }
+    }
+    return ans;
+}
